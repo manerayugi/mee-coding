@@ -1,11 +1,3 @@
-def convert48_49_32(number):
-    if int(number) == 48:
-        return '0'
-    elif int(number) == 49:
-        return '1'
-    else:
-        return ''
-
 def binaryASCIItoText(str_binary):
     # Initialize a binary string
     input_string=int(str_binary, 2);
